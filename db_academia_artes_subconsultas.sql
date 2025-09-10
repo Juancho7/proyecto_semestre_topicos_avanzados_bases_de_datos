@@ -1,4 +1,11 @@
 ----------------------------------
+-- INTEGRANTES:
+-- CRISTIAN CAMILO SANTIAGO SANCHEZ
+-- JUAN FERNANDO ORDOÑEZ MARTINEZ
+-- LUIS EDUARDO TORRES
+----------------------------------
+
+----------------------------------
 -- SUBCONSULTAS
 ----------------------------------
 
@@ -94,4 +101,5 @@ WHERE id_estudiante IN (
     SELECT id_estudiante
     FROM redencion_de_clase_no_asistida
     WHERE estado_redencion = 'rechazada' AND motivo = 'Falta de notificación previa'
+
 );
